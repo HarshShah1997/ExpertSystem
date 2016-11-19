@@ -1,3 +1,8 @@
+:- discontiguous question/1.
+:- discontiguous answer/1.
+:- discontiguous desc/1.
+
+
 getString(0, [First|_], First).
 getString(Index, [First|Rest], Response) :-
     Index > 0,
